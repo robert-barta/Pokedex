@@ -28,7 +28,7 @@ export default function PokeDetails() {
   }
 
   return (
-    <div>
+    <div className="details-container">
       <h1> {pokemon.name}</h1>
       <p> Height: {pokemon.height}</p>
       <p> Move: {pokemon.move}</p>
